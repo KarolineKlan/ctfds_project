@@ -24,3 +24,4 @@ data/.DS_Store
 data/
 graphs/
 reddit-all-posts-with-communities.gml
+reddit-graph-with-communities.gml
