@@ -30,3 +30,7 @@ reddit_graph_with_communities.gml
 FINAL_reddit_graph_with_louvain_communities.gml
 frequent_items_analysis_phrases.ipynb
 post_clusters.csv
+0_Contents.ipynb
+Dataload.ipynb
+text_processing_graphs.ipynb
+text_processing.ipynb
