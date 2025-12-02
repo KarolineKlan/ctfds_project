@@ -29,5 +29,5 @@ The project consists of **seven main notebooks**, please read them in the follow
 ### **[06_Frequent_Items_Louvain.ipynb](06_Frequent_Items_Louvain.ipynb)**  
 - Applies frequent itemset mining to uncover co-occurring terms within each Louvain community.
 
-### **[07_Frequent_Items_DBScan.ipynb](07_Frequent_Items_DBScan.ipynb)**  
+### **[07_Frequent_Items_HDBScan.ipynb](07_Frequent_Items_HDBScan.ipynb)**  
 - Performs the same frequent itemset analysis on the semantic clusters derived from HDBSCAN.
