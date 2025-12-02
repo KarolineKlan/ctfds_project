@@ -20,7 +20,7 @@ The project consists of **seven main notebooks**, please read them in the follow
 ### **[03_Network_Analysis.ipynb](03_Network_Analysis.ipynb)**  
 - Performs structural network analysis: degree distribution, cantrality measures, and Louvain community detection.
 
-### **[04_Community_Wordclouds.ipynb](04_Community_Wordclouds.ipynb)**  
+### **[04_TFIDF_Wordclouds.ipynb](04_TFIDF_Wordclouds.ipynb)**  
 - Uses TF-IDF and word clouds to explore the dominant vocabulary within each Louvain community.
 
 ### **[05_Semantic_Clustering.ipynb](05_Semantic_Clustering.ipynb)**  
