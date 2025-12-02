@@ -11,23 +11,23 @@ Authors
 The goal of this project is to investigate communication patterns, user connectivity, and language dynamics within online incel communities using a combination of network analysis and text mining.  
 The project consists of **seven main notebooks**, please read them in the following order:
 
-### **[01_DataPreparation.ipynb](01_DataPreparation.ipynb)**  
+### **[01_Data_Preparation.ipynb](01_Data_Preparation.ipynb)**  
 - Prepares and cleans the dataset, extracts relevant fields, and ensures the data is ready for further analysis.
 
-### **[02_GraphCreation.ipynb](02_GraphCreation.ipynb)**  
+### **[02_Graph_Creation.ipynb](02_Graph_Creation.ipynb)**  
 - Builds the user–user interaction graph, assigns metadata, and stores subreddit origins.
 
-### **[03_NetworkAnalysis.ipynb](03_NetworkAnalysis.ipynb)**  
+### **[03_Network_Analysis.ipynb](03_Network_Analysis.ipynb)**  
 - Performs structural network analysis: degree distribution, cantrality measures, and Louvain community detection.
 
-### **[04_CommunityWordclouds.ipynb](04_CommunityWordclouds.ipynb)**  
+### **[04_Community_Wordclouds.ipynb](04_Community_Wordclouds.ipynb)**  
 - Uses TF-IDF and word clouds to explore the dominant vocabulary within each Louvain community.
 
-### **[05_SemanticClustering.ipynb](05_SemanticClustering.ipynb)**  
+### **[05_Semantic_Clustering.ipynb](05_Semantic_Clustering.ipynb)**  
 - Clusters posts based on semantic similarity using sentence embeddings and HDBSCAN.
 
-### **[06_FrequentItemsLouvain.ipynb](06_FrequentItemsLouvain.ipynb)**  
+### **[06_Frequent_Items_Louvain.ipynb](06_Frequent_Items_Louvain.ipynb)**  
 - Applies frequent itemset mining to uncover co-occurring terms within each Louvain community.
 
-### **[07_FrequentItemsDBScan.ipynb](07_FrequentItemsDBScan.ipynb)**  
+### **[07_Frequent_Items_DBScan.ipynb](07_Frequent_Items_DBScan.ipynb)**  
 - Performs the same frequent itemset analysis on the semantic clusters derived from HDBSCAN.
